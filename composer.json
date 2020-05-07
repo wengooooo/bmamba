@@ -1,0 +1,29 @@
+{
+    "name": "wengooooo/bmanba",
+    "authors": [
+        {
+            "name": "Wengo",
+            "email": "398711943@qq.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^7.2",
+        "symfony/dom-crawler": "^4.3",
+        "symfony/css-selector": "^4.3",
+        "guzzlehttp/guzzle" : "6.3.3",
+        "campo/random-user-agent": "^1.3",
+        "pleonasm/bloom-filter": "^1.0",
+        "predis/predis": "^1.1",
+        "symfony/http-foundation": "^5.0",
+        "symfony/var-dumper": "^5.0",
+        "symfony/finder": "^5.0",
+        "psr/log": "^1.1",
+        "monolog/monolog": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "BMamba\\": "src/"
+        }
+    }
+}

@@ -1,0 +1,11 @@
+<?php
+
+namespace DummyNamespace;
+
+use BMamba\Contracts\Crawler\ICrawlerContainer;
+
+class Pipelines {
+    public function processItem($item) {
+
+    }
+}
